@@ -33,7 +33,6 @@ const useAxiosFetch = (dataUrl) => {
 		fetchData(dataUrl);
 
 		const cleanUp = () => {
-			console.log('clean up function');
 			isMounted = false;
 			source.cancel();
 		}
